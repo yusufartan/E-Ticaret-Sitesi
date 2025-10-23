@@ -1,9 +1,12 @@
 {
+  "homepage": "https://yusufartan.github.io/E-Ticaret-Sitesi",
   "name": "e-ticaret-sitesi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -16,6 +19,7 @@
     "@reduxjs/toolkit": "^2.9.0",
     "axios": "^1.12.2",
     "framer-motion": "^12.23.24",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "lottie-react": "^2.4.1",
     "react": "^19.1.1",
