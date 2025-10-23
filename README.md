@@ -1,18 +1,56 @@
-# React + Vite
+# 🛍️ Yusuf Giyim – React E-Ticaret Sitesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./src/assets/photos/yusuf-giyim-logo.png" alt="Yusuf Giyim Logo" width="150"/>
 
-Currently, two official plugins are available:
+Modern tasarımlı, **React + Redux Toolkit** altyapısıyla geliştirilmiş bir e-ticaret sitesidir.  
+Ürün listeleme, sepet yönetimi, tema seçimi ve animasyonlu kullanıcı deneyimi içerir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Özellikler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+✅ Ürün listeleme ve detay sayfaları  
+✅ Redux Toolkit ile global state (durum) yönetimi  
+✅ Sepet (basket) sistemi – ürün ekleme, çıkarma, adet artırma  
+✅ LocalStorage ile kalıcı veri  
+✅ MUI Drawer (çekmece) tasarımı  
+✅ Dark / Light tema geçişi  
+✅ Lottie animasyonları (success.json)  
+✅ Responsive ve sade UI
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧱 Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React**
+- 🧰 **Redux Toolkit**
+- 💅 **CSS / MUI**
+- 🪄 **Framer Motion & Lottie Animations**
+- 🗄️ **LocalStorage**
+- ⚙️ **Vite**
+
+---
+
+## 📂 Klasör Yapısı
+
+src/
+├── app/
+│ └── store.jsx
+├── assets/
+│ ├── animations/success.json
+│ └── photos/yusuf-giyim-logo.png
+├── components/
+│ ├── Header/
+│ ├── product/
+│ └── Loading.jsx
+├── config/
+│ └── RouterConfig.jsx
+├── container/
+│ └── PageContainer.jsx
+├── pages/
+│ └── Home.jsx
+└── redux/
+├── settings/
+└── slices/
+
+
