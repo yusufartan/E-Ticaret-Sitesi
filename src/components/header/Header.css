@@ -1,0 +1,41 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.logoText {
+  color: rgb(132, 128, 128);
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.SearchInput {
+  width: 350px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px inset lightgray;
+  outline: none;
+  margin-right: 10px;
+}
+
+.icon {
+  font-size: 32px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: rgb(100, 106, 108);
+}

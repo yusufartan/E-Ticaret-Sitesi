@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container.dark {
+    background-color: #1f1f1f;
+    color: #fff;
+    min-height: 100vh;
+    transition: background-color 0.2s ease;
+}
+
+.app-container.light {
+    background-color: #fff;
+    color: #000;
+    min-height: 100vh;
+    transition: background-color 0.2s ease;
+}
+
+
+/* Drawer (Sepet) stilleri */
+.drawer-container {
+  width: 340px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.drawer-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.drawer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.drawer-item-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.drawer-item-info {
+  flex: 1;
+}
+
+.drawer-item-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.drawer-item-price {
+  font-size: 0.9rem;
+  color: #2b8a3e;
+  font-weight: 600;
+}
+
+.drawer-total {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.remove-btn {
+  background: transparent;
+  border: 1px solid #d33;
+  color: #d33;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: #d33;
+  color: white;
+}
+
+.empty-basket {
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+}
